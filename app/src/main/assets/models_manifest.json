@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "models": {
+    "en": [
+      {
+        "filename": "bundle.zip",
+        "archive": "zip",
+        "root": "vosk-model-small-en-us-0.15",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "filename": "bundle.zip",
+        "archive": "zip",
+        "root": "vosk-model-small-fr-0.22",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "filename": "bundle.zip",
+        "archive": "zip",
+        "root": "vosk-model-small-cn-0.22",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "filename": "bundle.zip",
+        "archive": "zip",
+        "root": "vosk-model-small-ja-0.22",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://alphacephei.com/vosk/models/vosk-model-small-ja-0.22.zip",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "filename": "bundle.zip",
+        "archive": "zip",
+        "root": "vosk-model-small-it-0.22",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://alphacephei.com/vosk/models/vosk-model-small-it-0.22.zip",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "tr": [
+      {
+        "filename": "bundle.zip",
+        "archive": "zip",
+        "root": "vosk-model-small-tr-0.3",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://alphacephei.com/vosk/models/vosk-model-small-tr-0.3.zip",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "ko": [
+      {
+        "filename": "bundle.zip",
+        "archive": "zip",
+        "root": "vosk-model-small-ko-0.22",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://alphacephei.com/vosk/models/vosk-model-small-ko-0.22.zip",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "lid": [
+      {
+        "filename": "bundle.tar.bz2",
+        "archive": "tar.bz2",
+        "root": "sherpa-onnx-whisper-tiny",
+        "keep": [
+          "tiny-encoder.int8.onnx",
+          "tiny-decoder.int8.onnx"
+        ],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-tiny.tar.bz2",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "sensevoice": [
+      {
+        "filename": "bundle.tar.bz2",
+        "archive": "tar.bz2",
+        "root": "sherpa-onnx-sense-voice-zh-en-ja-ko-yue-int8-2024-07-17",
+        "keep": [
+          "model.int8.onnx",
+          "tokens.txt"
+        ],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": []
+      }
+    ],
+    "whisper": [
+      {
+        "filename": "bundle.tar.bz2",
+        "archive": "tar.bz2",
+        "root": "sherpa-onnx-whisper-base",
+        "keep": [
+          "base-encoder.int8.onnx",
+          "base-decoder.int8.onnx",
+          "base-tokens.txt"
+        ],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-base.tar.bz2",
+            "priority": 10
+          }
+        ]
+      }
+    ],
+    "vad": [
+      {
+        "filename": "silero_vad.onnx",
+        "archive": "raw",
+        "root": "",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": [
+          {
+            "id": "official",
+            "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
+            "priority": 10
+          },
+          {
+            "id": "maintainer-hf",
+            "url": "https://huggingface.co/csukuangfj/vad/resolve/main/silero_vad.onnx",
+            "priority": 20
+          }
+        ]
+      }
+    ],
+    "ocr": [
+      {
+        "filename": "inference.onnx",
+        "archive": "raw",
+        "root": "",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": []
+      },
+      {
+        "filename": "rec_chars.txt",
+        "archive": "raw",
+        "root": "",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": []
+      }
+    ],
+    "whisper-small": [
+      {
+        "filename": "small-encoder.int8.onnx",
+        "archive": "raw",
+        "root": "",
+        "keep": [],
+        "sizeBytes": 112442483,
+        "sha256": "4cbe7b22fa9026b843b60a68640c747de05bafb1a11b57edc0e66c232d9f33a9",
+        "mirrors": []
+      },
+      {
+        "filename": "small-decoder.int8.onnx",
+        "archive": "raw",
+        "root": "",
+        "keep": [],
+        "sizeBytes": 262226114,
+        "sha256": "acad50b5c782696e91b55914cc5ab4f756f1532f76e22aa6fc615f39fb69a8ee",
+        "mirrors": []
+      },
+      {
+        "filename": "small-tokens.txt",
+        "archive": "raw",
+        "root": "",
+        "keep": [],
+        "sizeBytes": 0,
+        "sha256": "",
+        "mirrors": []
+      }
+    ]
+  }
+}
